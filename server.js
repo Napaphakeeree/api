@@ -5,7 +5,7 @@ const { PrismaClient } = require('@prisma/client');
 const bcrypt = require('bcrypt');
 
 const app = express();
-const prisma = new PrismaClient();
+
 const port = 3001;  // Express port
 
 let totalStudents = null; // จำนวนคนในห้อง
